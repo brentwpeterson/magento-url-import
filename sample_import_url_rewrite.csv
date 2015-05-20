@@ -1,0 +1,5 @@
+store_id,id_path,request_path,target_path,entity_type,product_id,product_sku,category_id
+1,,test_product_id.html,,product,137,,
+1,,test_product_sku.html,,product,,sanjay,
+1,,test_category_sku.html,,category,,,66
+1,custom1,custom1.html,meet-our-team/justin.html,,,,

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <urlrewrite>
+                    <children>
+                        <ieurlrewrite translate="title" module="ieurlrewrite">
+                            <title>Import/Export Url Rewrite</title>
+                            <action>ieurlrewrite/adminhtml_ieurlrewrite/importExport</action>
+                            <sort_order>50</sort_order>
+                        </ieurlrewrite>
+                    </children>
+                </urlrewrite>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <urlrewrite>
+                                <children>
+                                    <ieurlrewrite translate="title">
+                                        <title>Import/Export Url Rewrite</title>
+                                    </ieurlrewrite>
+                                </children>
+                            </urlrewrite>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

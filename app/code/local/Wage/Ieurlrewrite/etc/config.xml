@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Wage_Ieurlrewrite>
+            <version>1.0.0</version>
+        </Wage_Ieurlrewrite>
+    </modules>
+    <admin>
+        <routers>
+            <ieurlrewrite>
+                <use>admin</use>
+                <args>
+                    <module>Wage_Ieurlrewrite</module>
+                    <frontName>ieurlrewrite</frontName>
+                </args>
+            </ieurlrewrite>
+        </routers>
+    </admin>
+    <global>
+        <blocks>
+            <ieurlrewrite>
+                <class>Wage_Ieurlrewrite_Block</class>
+            </ieurlrewrite>
+        </blocks>
+        <helpers>
+            <ieurlrewrite>
+                <class>Wage_Ieurlrewrite_Helper</class>
+            </ieurlrewrite>
+        </helpers>
+        <models>
+            <ieurlrewrite>
+                <class>Wage_Ieurlrewrite_Model</class>
+            </ieurlrewrite>
+        </models>
+    </global>
+</config> 

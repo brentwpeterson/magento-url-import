@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Wage_Ieurlrewrite>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Wage_Ieurlrewrite>
+    </modules>
+</config>
